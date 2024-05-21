@@ -15,8 +15,8 @@ html {
 @font-face {
 	font-family: 'Montserrat';
 	src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'),
-    url('/fonts/MontserratSemiBold.woff2') format('woff2')
-		url('/fonts/MontserratSemiBold.woff') format('woff');
+    url('../fonts/MontserratSemiBold.woff2') format('woff2')
+		url('../fonts/MontserratSemiBold.woff') format('woff');
 	font-weight: 600;
 	font-style: normal;
   font-display: swap;
@@ -25,8 +25,8 @@ html {
 @font-face {
 	font-family: 'Montserrat';
 	src: local('Montserrat Bold'), local('Montserrat-Bold'),
-		url('/fonts/MontserratBold.woff2') format('woff2'),
-		url('/fonts/MontserratBold.woff') format('woff');
+		url('../fonts/MontserratBold.woff2') format('woff2'),
+		url('../fonts/MontserratBold.woff') format('woff');
 	font-weight: 700;
 	font-style: normal;
   font-display: swap;
@@ -35,8 +35,8 @@ html {
 @font-face {
 	font-family: 'Montserrat';
 	src: local('Montserrat Regular'), local('Montserrat-Regular'),
-		url('/fonts/MontserratRegular.woff2') format('woff2'),
-		url('/fonts/MontserratRegular.woff') format('woff');
+		url('../fonts/MontserratRegular.woff2') format('woff2'),
+		url('../fonts/MontserratRegular.woff') format('woff');
 	font-weight: 400;
 	font-style: normal;
   font-display: swap;
@@ -45,8 +45,8 @@ html {
 @font-face {
 	font-family: 'Montserrat';
 	src: local('Montserrat Medium'), local('Montserrat-Medium'),
-		url('/fonts/MontserratMedium.woff2') format('woff2'),
-		url('/fonts/MontserratMedium.woff') format('woff');
+		url('../fonts/MontserratMedium.woff2') format('woff2'),
+		url('../fonts/MontserratMedium.woff') format('woff');
 	font-weight: 500;
 	font-style: normal;
   font-display: swap;
@@ -55,8 +55,8 @@ html {
 @font-face {
 	font-family: 'Montserrat';
 	src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'),
-		url('/fonts/MontserratExtraBold.woff2') format('woff2'),
-		url('/fonts/MontserratExtraBold.woff') format('woff');
+		url('../fonts/MontserratExtraBold.woff2') format('woff2'),
+		url('../fonts/MontserratExtraBold.woff') format('woff');
 	font-weight: 800;
 	font-style: normal;
   font-display: swap;
@@ -339,15 +339,15 @@ svg {
 }
 
 .swiper-slide-img1 {
-  background-image: url(/img/baner-1.png);
+  background-image: url(../img/baner-1.png);
 }
 
 .swiper-slide-img2 {
-  background-image: url(/img/baner-2.png);
+  background-image: url(../img/baner-2.png);
 }
 
 .swiper-slide-img3 {
-  background-image: url(/img/baner-3.png);
+  background-image: url(../img/baner-3.png);
 }
 
 .swiper-pagination-bullet {
@@ -449,7 +449,7 @@ svg {
   align-items: flex-end;
   margin-right: 32px;
   border-radius: 32px;
-  background-image: url(/img/Rectangle\ 2.png);
+  background-image: url(../img/Rectangle\ 2.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -595,19 +595,19 @@ svg {
 }
 
 .working__img1 {
-  background-image: url(/img/baner-1.png);
+  background-image: url(../img/baner-1.png);
 }
 
 .working__img2 {
-  background-image: url(/img/working2.png);
+  background-image: url(../img/working2.png);
 }
 
 .working__img3 {
-  background-image: url(/img/working3.png);
+  background-image: url(../img/working3.png);
 }
 
 .working__img4 {
-  background-image: url(/img/working4.png);
+  background-image: url(../img/working4.png);
 }
 
 .working__link--active {
